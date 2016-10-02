@@ -19,7 +19,7 @@ lines(as.POSIXct(paste(c$Date, c$Time), format="%d/%m/%Y %H:%M:%S"), c$Sub_meter
 lines(as.POSIXct(paste(c$Date, c$Time), format="%d/%m/%Y %H:%M:%S"), c$Sub_metering_2, col="red")
 lines(as.POSIXct(paste(c$Date, c$Time), format="%d/%m/%Y %H:%M:%S"), c$Sub_metering_3, col="blue")
 
-legend("topright", legend=c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), col=c("black", "red", "blue"), lty = c(1,1), lwd = 0)
+legend("topright", legend=c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"), col=c("black", "red", "blue"),bty="n", lty = c(1,1), lwd = 0)
 
 plot(as.POSIXct(paste(c$Date, c$Time), format="%d/%m/%Y %H:%M:%S"), c$Global_reactive_power, ylab = "Global_reactive_power", xlab = "datetime", type="l")
 dev.off()
