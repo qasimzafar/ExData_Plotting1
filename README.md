@@ -2,6 +2,8 @@
 
 -- This is the readme as it was originally forked from R. Peng's repo --
 
+-- Running the provided scripts requires the Electric power consumption dataset (linked below) in the same directory as the R scritps --
+
 ## Introduction
 
 This assignment uses data from
