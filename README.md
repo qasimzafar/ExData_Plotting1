@@ -1,3 +1,7 @@
+### Course Project 1 - Exploratory Data Analysis | Submission
+
+-- This is the readme as it was originally forked from R. Peng's repo --
+
 ## Introduction
 
 This assignment uses data from
